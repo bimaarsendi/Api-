@@ -2,6 +2,9 @@
   "name": "webapi",
   "version": "1.0.0",
   "main": "index.js",
+  "script": {
+    "start": "node index.js"
+  }
   "license": "MIT",
   "dependencies": {
     "@neoxr/api": "^1.5.3",
