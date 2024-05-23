@@ -2,11 +2,11 @@ const Scraper = new(require('../../lib/scraper'))
 
 exports.routes = {
    category: 'tools',
-   path: '/api/ytmp3',
+   path: '/api/tiktok',
    parameter: ['url'],
    method: 'get',
    execution: async (req, res, next) => {
-      const json = await Scraper.ytmp3(req.query.url)
+      const json = await Scraper.tiktok(req.query.url)
       res.json(json)
    },
    error: false,
