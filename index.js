@@ -25,11 +25,11 @@ const runServer = async () => {
    app.disable('x-powered-by')
    app.listen(PORT, () => {
       const CFonts = require('cfonts')
-      CFonts.say('WEB 0.1', {
+      CFonts.say('Zeyn API', {
          font: 'tiny',
          align: 'center',
          colors: ['system']
-      }), CFonts.say('Github : https://github.com/neoxr/webapi', {
+      }), CFonts.say('Github : https://github.com/zeyndvp/webapi', {
          colors: ['system'],
          font: 'console',
          align: 'center'
